@@ -1,2 +1,5 @@
 # frozen_string_literal: true
 
+require_relative '../lib/secret_society_cli'
+
+SecretSocietyCli::Cli.run
